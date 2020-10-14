@@ -61,7 +61,7 @@ function getMails(e){
       valid.push(email);
     }
   });
-  console.log(valid);
+  console.log(valid.sort());
 }
 
 numsArray = [5, 4, 3, 5, 2];
